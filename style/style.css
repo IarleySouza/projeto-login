@@ -26,6 +26,13 @@ main {
     width: 100vw;
     height: 100vh;
 }
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+p {
+    font-size: 0.8em;
+}
 
 #login {
     position: absolute;
@@ -35,7 +42,7 @@ main {
     overflow: hidden;
 
     background-color: white;
-    width: 250px;
+    width: 270px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
@@ -61,6 +68,9 @@ main {
     body {
         background-image: linear-gradient(to top, #475368, #5ab1bbb7 );
     }
+    p {
+        font-size: 1.0em;
+    }
 
     #login {
         width: 80vw;
@@ -82,17 +92,24 @@ main {
     body {
         background-image: linear-gradient(to top, #475368, #5ab1bbb7 );
     }
+    h1 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.2em;
+    }
     #login {
         width: 925px;
     }
 
     #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
     #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+
 }
