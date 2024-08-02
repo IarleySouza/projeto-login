@@ -38,7 +38,10 @@ main {
     width: 250px;
     height: 500px;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 #imagem {
     display: block;
@@ -51,4 +54,45 @@ main {
 #formulario {
     display: block;
     padding: 10px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+    body {
+        background-image: linear-gradient(to top, #475368, #5ab1bbb7 );
+    }
+
+    #login {
+        width: 80vw;
+    }
+    #imagem {
+        float: left;
+        height: 100%;
+        width: 30%;
+        background-position: bottom center;
+    }
+    #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    body {
+        background-image: linear-gradient(to top, #475368, #5ab1bbb7 );
+    }
+    #login {
+        width: 925px;
+    }
+
+    #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    #formulario {
+        float: right;
+        width: 50%;
+    }
 }
