@@ -99,7 +99,6 @@ input[type=submit]:hover {
 .botao > i {
     font-size: 0.8em;
     color: #2E0014;
-    background-color: #475368;
 }
 
 form > a.botao:hover {
