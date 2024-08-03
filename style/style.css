@@ -27,13 +27,62 @@ main {
     height: 100vh;
 }
 h1 {
+
     margin-bottom: 10px;
     text-align: center;
 }
 p {
     font-size: 0.8em;
 }
+.campo {
+    background-color: #5AB1BB;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
 
+label {
+    display: none;
+}
+
+input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(77, 15, 15, 0.836);
+    color: white;
+    border: none;
+    margin-top: 10px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #475368;
+}
+.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid rgba(136, 29, 29, 0.836);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(2, 0, 0, 0.836);
+    padding-top: 5px;
+    margin-top: 5px;
+}
+.botao > i {
+    font-size: 0.8em;
+    color: #2E0014;
+    background-color: #475368;
+}
+
+form > a.botao:hover {
+    background-color: rgba(136, 29, 29, 0.836);
+}
 #login {
     position: absolute;
     top: 50%;
@@ -43,7 +92,7 @@ p {
 
     background-color: white;
     width: 270px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 
